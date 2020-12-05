@@ -1,0 +1,48 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "dependencies": {
+    "as-type": "^1.0.0",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.4",
+    "express": "^4.16.3",
+    "firebase": "^5.0.4",
+    "history": "^4.7.2",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "7.0.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.8.6",
+    "react-thunk": "^1.0.0",
+    "recharts": "^1.0.0-beta.10",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "validator": "8.0.0",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}
